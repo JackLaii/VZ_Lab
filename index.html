@@ -11,11 +11,10 @@
 	<style type="text/css">
 	body{font-family: "Lato", sans-serif}
 		#main-header{
-			text-align:center;
+			text-align:left-bottom;
 			background-color:black;
 			color:white;
-			padding:15px;
-			margin-bottom:10px;
+			padding-top:40px;
 		}
 		#main-footer{
 			text-align: center;
@@ -26,8 +25,7 @@
 			margin-right:10px; 
 			margin-bottom: 5px; 
 			border: solid green 3px; 
-			padding: 2px;
-			
+			padding: 2px;			
 		}
 		.button {
     		-webkit-appearance: button;
@@ -39,37 +37,68 @@
       		align-self: center;
       		position: relative;
       		top: 5px;
+      		bottom:10px;
       		width: 100px;
       		height: 30px;
       		color: #ffffff;
       		border: none;
       		font-size: 100%;
       		padding:5px 5px;
+      		padding-top: 15px;
 		}
 
 		.button:hover{background-color:#669999;}
 		h4{line-height: 0.1;}
 
+		#main-nav ul{
+			text-align: center;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		#main-nav li{
+			text-align: center;
+			align-self:center; 
+			list-style-type:none;
+			display: inline;
+		}
+		#main-nav li a{
+			display: block;
+			width: 100px;
+			display: inline;
+			text-decoration:none;
+			padding: 5px;
+		}
+		#main-nav li a:hover{
+			background-color: #003366;
+			color:white;
+			display: inline;
+		}
+		#main-body{
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+
 	</style>
 </head>
-<body style="background-color:white;">
+<body " id="main-body">
 	<!-- Navigation -->
-	<div class="w3-bar w3-red w3-card w3-left-align w3-large">
-		<a href="https://sites.google.com/mst.edu/ze-hao-jack-lai/home" class= "w3-button w3-bar-item"target="_blank">Youtube channel</a>
-	</div>
+	<div id="main-nav">
+		<ul>
+			<li><a href="https://google.com">About VZ Lab</a></li>
+			<li><a href="https://google.com">Research</a></li>
+			<li><a href="https://google.com">Courses</a></li>
+			<li><a href="https://google.com">Youtube</a></li>
+		</ul>
+      	<style type="text/css">
+      </style>
+      </div>
+      <br>	
 	<header id="main-header">
 		<h1>Welcome to VZ Lab!</h1>
 	</header>
-	<div style = "text-align:center">
-		<a href="https://jacklaii.github.io/VZ_Lab/" class="button">Home</a>
-		<a href="https://jacklaii.github.io/VZ_Lab/" class="button">Research</a>
-		<a href="https://jacklaii.github.io/VZ_Lab/" class="button">Courses</a>
-      	<style type="text/css">
-      </style>
-      </div>	
       <br>
 		<a href="vzLab.jpg">
-		<img src="vzLab.jpg" alt="My Sample Image" width="403" height="300"  class="float-img" >
+		<img src="vzLab.jpg" alt="My Sample Image" width="376.1" height="280"  class="float-img" >
 		</a>
 	<section>
 		<h4><a href="https://sites.google.com/mst.edu/ze-hao-jack-lai/home" class= "w3-button w3-bar-item"target="_blank">Ze-Hao (Jack) Lai</a> - Department of Mechanical and Aerospace Engineering</h4>
@@ -112,6 +141,7 @@
 			<li><a href="https://www.google.com/">Machine Learning</a></li>
 			<li><a href="#">Augmented Reality</a></li>
 			<li><a href="#">Digital Communication</a></li>
+			<li><a href="#">Quantum Physics</a></li>
 		</ul>
 	</aside>
 

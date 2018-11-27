@@ -6,10 +6,10 @@
 	<meta name="Keywords" content="web design">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/w3css/3/w3.css">
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<style type="text/css">
-	body{font-family: "Lato", sans-serif}
+	body{font-family: "serial", sans-serif}
 		#main-header{
 			text-align:left-bottom;
 			background-color:black;
@@ -49,63 +49,61 @@
 
 		.button:hover{background-color:#669999;}
 		h4{line-height: 0.1;}
-
-		#main-nav ul{
-			text-align: center;
-			margin-top: 5px;
-			margin-bottom: 5px;
-		}
-		#main-nav li{
-			text-align: center;
-			align-self:center; 
-			list-style-type:none;
-			display: inline;
-		}
-		#main-nav li a{
-			display: block;
-			width: 100px;
-			display: inline;
-			text-decoration:none;
-			padding: 5px;
-		}
-		#main-nav li a:hover{
-			background-color: #003366;
-			color:white;
-			display: inline;
-		}
 		#main-body{
-			padding-left: 100px;
-			padding-right: 100px;
-		}
+			padding-left: 150px;
+			padding-right: 150px;
+			background-color: white;
 
+		}
+		.container{
+			position: relative;
+			width:100%;
+			height:200px;
+			display: inline-block;
+		}
+		.bannerImage{
+			display: block;
+			width:100%;
+			height:150px;
+		}
+		.overlay{
+			position: absolute;
+		}
+		.overlay h3{
+			margin-top: -40px;
+			color:gray;
+			font-size:30px;
+			margin-left: 10px;
+		}
 	</style>
 </head>
-<body " id="main-body">
+<body id="main-body">
 	<!-- Navigation -->
-	<div id="main-nav">
-		<ul>
-			<li><a href="https://google.com">About VZ Lab</a></li>
-			<li><a href="https://google.com">Research</a></li>
-			<li><a href="https://google.com">Courses</a></li>
-			<li><a href="https://google.com">Youtube</a></li>
+		<ul id="headerlist">
+			<li id="headerlist-ele"><a id="headerlist-text" href="https://google.com">About VZ Lab</a></li>
+			<li id="headerlist-ele"><a id="headerlist-text" href="https://google.com">Research</a></li>
+			<li id="headerlist-ele"><a id="headerlist-text" href="https://google.com">Courses</a></li>
+			<li id="headerlist-ele"><a id="headerlist-text" href="https://google.com">Youtube</a></li>
 		</ul>
-      	<style type="text/css">
-      </style>
-      </div>
-      <br>	
-	<header id="main-header">
-		<h1>Welcome to VZ Lab!</h1>
-	</header>
+      <div classs="container">
+      	<img src="bannerImg.jpg" alt="bannerImage" class="bannerImage">
+      		<div class="overlay">
+  				<h3>Welcome to VZ Lab</h3>
+  			</div>
+		</div>
       <br>
+    <div>
 		<a href="vzLab.jpg">
 		<img src="vzLab.jpg" alt="My Sample Image" width="376.1" height="280"  class="float-img" >
 		</a>
+	</div>
 	<section>
 		<h4><a href="https://sites.google.com/mst.edu/ze-hao-jack-lai/home" class= "w3-button w3-bar-item"target="_blank">Ze-Hao (Jack) Lai</a> - Department of Mechanical and Aerospace Engineering</h4>
 		<h4>Viraj Gajjar - Department of Electrical and Computer Engineering</h4>
 		<h4>Kazuma Kobayashi - Department of Nuclear Engineering</h4>
-		<h4>Missouri University of Science and Technology, MO, USA</h4>
 		<hr>
+		<h4>Missouri University of Science and Technology, MO, USA</h4>
+		<br>
 		<h3>Who We Are</h3>
 		<p>lorem10 ipdwefa is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
 			<a href='post.html'>Learn More About Us</a>

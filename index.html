@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>VZ's Lab</title>
+	<title>VZ Lab</title>
 	<meta name="description" content="This is Jack's page">
 	<meta name="Keywords" content="web design">
 	<meta charset="UTF-8">
@@ -10,22 +10,15 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<style type="text/css">
 	body{font-family: "serial", sans-serif}
-		#main-header{
-			text-align:left-bottom;
-			background-color:black;
-			color:white;
-			padding-top:40px;
-		}
-		#main-footer{
-			text-align: center;
-			font-size:18px;
-		}
 		.float-img{
 			float: left; 			
 			margin-right:10px; 
-			margin-bottom: 5px; 
-			border: solid green 3px; 
-			padding: 2px;			
+			margin-bottom: 5px;
+			margin-top: 0px; 
+			border-radius: 8px;
+			padding: 2px;
+			max-width: 100%;	
+			height:auto;
 		}
 		.button {
     		-webkit-appearance: button;
@@ -48,11 +41,10 @@
 		}
 
 		.button:hover{background-color:#669999;}
-		h4{line-height: 0.1;}
 		#main-body{
 			padding-left: 150px;
 			padding-right: 150px;
-			background-color: white;
+			background-color: #ffffff;
 
 		}
 		.container{
@@ -68,12 +60,14 @@
 		}
 		.overlay{
 			position: absolute;
+			max-width: 100%;
 		}
 		.overlay h3{
 			margin-top: -40px;
 			color:gray;
 			font-size:30px;
 			margin-left: 10px;
+
 		}
 	</style>
 </head>
@@ -97,12 +91,18 @@
 		<img src="vzLab.jpg" alt="My Sample Image" width="376.1" height="280"  class="float-img" >
 		</a>
 	</div>
-	<section>
-		<h4><a href="https://sites.google.com/mst.edu/ze-hao-jack-lai/home" class= "w3-button w3-bar-item"target="_blank">Ze-Hao (Jack) Lai</a> - Department of Mechanical and Aerospace Engineering</h4>
-		<h4>Viraj Gajjar - Department of Electrical and Computer Engineering</h4>
-		<h4>Kazuma Kobayashi - Department of Nuclear Engineering</h4>
-		<hr>
-		<h4>Missouri University of Science and Technology, MO, USA</h4>
+	
+		<div id="header-info">
+			<h4><a href="https://sites.google.com/mst.edu/ze-hao-jack-lai/home" target="_blank">Ze-Hao (Jack) Lai</a> - Department of Mechanical and Aerospace Engineering</h4>
+			<h4>Viraj Gajjar - Department of Electrical and Computer Engineering</h4>
+			<h4>Kazuma Kobayashi - Department of Nuclear Engineering</h4>
+			<hr>
+			<h4>Missouri University of Science and Technology, MO, USA</h4>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
 		<br>
 		<h3>Who We Are</h3>
 		<p>lorem10 ipdwefa is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
@@ -131,18 +131,21 @@
 			<p>lorem10 ipdwefa is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <strong>dasdasd</strong> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum <a href='post.html'>Read More</a></p>
 			
 		</article>
-	</section>
+	
 	<br>
-	<aside>
 		<h3>Research interests</h3>
-		<ul>
-			<li><a href="https://www.google.com/">Machine Learning</a></li>
-			<li><a href="#">Augmented Reality</a></li>
-			<li><a href="#">Digital Communication</a></li>
-			<li><a href="#">Quantum Physics</a></li>
-		</ul>
-	</aside>
-
+		<div>
+			<h4>-Machine Learning</h4>
+		</div>
+		<div>
+			<h4>-Augmented/Virtual Reality (AR/VR)</h4>
+		</div>
+		<div>
+			<h4>-Digital Communication</h4>
+		</div>
+		<div>
+			<h4>-Quantum Physics</h4>
+		</div>
 	<br>
 	<br>
 		<!--Image-->
@@ -154,12 +157,6 @@
 	<footer id="main-footer" class="w3-container w3-padding-64 w3-center w3-opacity">
 			<!--<p><a href = "https://www.linkedin.com/in/ze-hao-jack-lai/"><strong>Jack's LinkedIn</strong></a></p>-->
 		<div><a href="https://www.worldflagcounter.com/details/fsT"><img src="https://www.worldflagcounter.com/fsT/" alt="Flag Counter"></a></div>
-		<div class="w3-xlarge w3-padding-32">
-			<i class="fa fa-facebook-official w3-hover-opacity"></i>
-    		<i class="fa fa-instagram w3-hover-opacity"></i>
-    		<i class="fa fa-youtube w3-hover-opacity"></i>
-    		<i href="https://www.linkedin.com/in/ze-hao-jack-lai/" class="fa fa-linkedin w3-hover-opacity"></i>
- 		</div>
 	</footer>
 
 	

@@ -19,3 +19,14 @@
 #headerlist-text:hover{
 	background-color: #111;
 }
+#header-info{
+	font-weight:bold;
+}
+#main-footer{
+	text-align: center;
+}
+h3{
+	color:#cc4b63;
+	font-weight: bold;
+	font-family: "Arial Black", sans-serif;
+}
